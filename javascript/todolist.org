@@ -1,0 +1,4 @@
+* To do [0/3]
+1. [ ] Emacs mode for web development - Magnar sveen videos - check
+2. [ ] Build a chat application using JS
+3. [ ] 
