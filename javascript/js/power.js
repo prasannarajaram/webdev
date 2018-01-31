@@ -1,15 +1,15 @@
-
-let x = prompt("Enter the base");
-let n = prompt("Enter exponent");
-
-function pow(x,n){
-
-    while (n != 0)
-    {
-	x = x * x;
-	n--;
+function pow(b,e){
+    let x = 1;
+    if (e == 1){
+        return b;
     }
-	return x;
+
+    while (e != 0){
+        x = x * b;
+        e--;
+    }
+    return x;
 }
-let result = pow(x,n);
-alert (result);
+
+let a = pow(2,5);
+console.log(a);
